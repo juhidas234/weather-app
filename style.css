@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('pexels-muffin-1646332.jpg');
+    background-size: cover;  /* Cover full screen without distortion */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    /* opacity: 0.8; */
+}
+
+.datetime{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg ,#00feba,#635c90 ) ;
+    
+
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    font-size: 24px;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg ,#00feba,#5b548a ) ;
+    
+
+     
+    color: #fff;
+    margin: 10px auto 0;
+    border-radius: 20px;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.search{
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: rgb(255, 253, 253, 0.5);
+    color: #555;
+    padding: 15px 48px;
+    height: 37px ;
+    border-radius: 12px;
+    flex: 1;
+    margin-right: 9px;
+    font-size: 18px;
+    
+    
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: rgb(255, 253, 253, 0.5);
+    border-radius:12px;
+    height: 37px;
+    cursor: pointer;
+    width: 200px;
+      padding: 10px;
+      font-size: 17px;
+      display: block;
+      color: #555;
+   
+}
+
+
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+    height: 135px;
+}
+
+.weather h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align:left;
+
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity , .wind{
+    font-size:28px ;
+    margin-top: -6px;
+
+}
+
+.weather{
+    display: none;
+}
